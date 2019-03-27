@@ -25,11 +25,11 @@ In BPSK, only one sinusoid is taken as the basis function. Modulation is achieve
 
 
 ## Scatter plot before noise:
-![BeforeNoise](BPSK/beforenoise.png)
+![BeforeNoise](BPSK/beforenoise.PNG)
 ## Scatter plot after noise:
-![AfterNoise](BPSK/afternoise.png)
+![AfterNoise](BPSK/afternoise.PNG)
 ## BER Graph
-![BERGraph](BPSK/ber.png)
+![BERGraph](BPSK/ber.PNG)
 
 
 # <a id="b"></a> QPSK
@@ -37,11 +37,11 @@ In BPSK, only one sinusoid is taken as the basis function. Modulation is achieve
 QPSK is a form of Phase Shift Keying in which two bits are modulated at once, selecting one of four possible carrier phase shifts (0, 90, 180, or 270 degrees). QPSK allows the signal to carry twice as much information as ordinary PSK using the same bandwidth
 
 ## Scatter plot before noise:
-![BeforeNoise](QPSK/beforenoise.png)
+![BeforeNoise](QPSK/beforenoise.PNG)
 ## Scatter plot after noise:
-![AfterNoise](QPSK/afternoise.png)
+![AfterNoise](QPSK/afternoise.PNG)
 ## BER Graph
-![BERGraph](QPSK/ber.png)
+![BERGraph](QPSK/ber.PNG)
 
 
 ## <a id="e"></a> FSK
@@ -49,11 +49,11 @@ QPSK is a form of Phase Shift Keying in which two bits are modulated at once, se
 FSK is a frequency modulation scheme in which digital information is transmitted through discrete frequency changes of a carrier signal.
 
 ## Scatter plot before noise:
-![BeforeNoise](FSK/beforenoise.png)
+![BeforeNoise](FSK/beforenoise.PNG)
 ## Scatter plot after noise:
-![AfterNoise](FSK/afternoise.png)
+![AfterNoise](FSK/afternoise.PNG)
 ## BER Graph
-![BERGraph](FSK/ber.png)
+![BERGraph](FSK/ber.PNG)
 
 
 
@@ -62,18 +62,18 @@ FSK is a frequency modulation scheme in which digital information is transmitted
 Quadrature amplitude modulation (QAM) is a technique used to transmit two digital bit streams or two analog signals by modulating or changing the amplitudes of two carrier waves so that they differ in phase by 90 degrees, a quarter of a cycle, hence the name quadrature. One signal is called the "I" signal and the other is the "Q" signal, which can be mathematically represented by a cosine and a sine wave, respectively.
 
 ## Scatter plot before noise:
-![BeforeNoise](QAM16/beforenoise.png)
+![BeforeNoise](QAM16/beforenoise.PNG)
 ## Scatter plot after noise:
-![AfterNoise](QAM16/afternoise.png)
+![AfterNoise](QAM16/afternoise.PNG)
 ## BER Graph
-![BERGraph](QAM16/ber.png)
+![BERGraph](QAM16/ber.PNG)
 
 
 ## <a id="d"></a>QAM64
 
 ## Scatter plot before noise:
-![BeforeNoise](QAM64/beforenoise.png)
+![BeforeNoise](QAM64/beforenoise.PNG)
 ## Scatter plot after noise:
-![AfterNoise](QAM64/afternoise.png)
+![AfterNoise](QAM64/afternoise.PNG)
 ## BER Graph
-![BERGraph](QAM64/ber.png)
+![BERGraph](QAM64/ber.PNG)
