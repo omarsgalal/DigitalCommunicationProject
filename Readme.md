@@ -23,6 +23,14 @@ Simulate the performance of different modulation schemes,[BPSK](#a), [QPSK](#b),
 BPSK is a two phase modulation scheme, where the 0’s and 1’s in a binary message are represented by two different phase states in the carrier signal: θ = 0 degree for binary 1 and θ = 180 degree for binary 0
 In BPSK, only one sinusoid is taken as the basis function. Modulation is achieved by varying the phase of the sinusoid depending on the message bits.
 
+## General Parameters:
+- M = 2
+- Eb/No = EbNo
+- Bits per Symbol = 1
+
+## Raised Cosine Parameters:
+- Rolloff factor = 0.2
+- Filter span in symbols = 8
 
 ## Scatter plot before noise:
 ![BeforeNoise](BPSK/beforenoise.PNG)
@@ -30,11 +38,26 @@ In BPSK, only one sinusoid is taken as the basis function. Modulation is achieve
 ![AfterNoise](BPSK/afternoise.PNG)
 ## BER Graph
 ![BERGraph](BPSK/ber.PNG)
+## Scatter plot before noise with raised cosine:
+![BeforeNoise](RaisedCosine/BPSK/beforenoise.PNG)
+## Scatter plot after noise with raised cosine:
+![AfterNoise](RaisedCosine/BPSK/afternoise.PNG)
+## BER Graph with raised cosine
+![BERGraph](RaisedCosine/BPSK/ber.PNG)
 
 
 # <a id="b"></a> QPSK
 ## Definition: 
 QPSK is a form of Phase Shift Keying in which two bits are modulated at once, selecting one of four possible carrier phase shifts (0, 90, 180, or 270 degrees). QPSK allows the signal to carry twice as much information as ordinary PSK using the same bandwidth
+
+## General Parameters:
+- M = 4
+- Eb/No = EbNo
+- Bits per Symbol = 2
+
+## Raised Cosine Parameters:
+- Rolloff factor = 0.2
+- Filter span in symbols = 8
 
 ## Scatter plot before noise:
 ![BeforeNoise](QPSK/beforenoise.PNG)
@@ -42,11 +65,23 @@ QPSK is a form of Phase Shift Keying in which two bits are modulated at once, se
 ![AfterNoise](QPSK/afternoise.PNG)
 ## BER Graph
 ![BERGraph](QPSK/ber.PNG)
+## Scatter plot before noise with raised cosine:
+![BeforeNoise](RaisedCosine/QPSK/beforenoise.PNG)
+## Scatter plot after noise with raised cosine:
+![AfterNoise](RaisedCosine/QPSK/afternoise.PNG)
+## BER Graph with raised cosine
+![BERGraph](RaisedCosine/QPSK/ber.PNG)
 
 
 ## <a id="e"></a> FSK
 ### Definition: 
 FSK is a frequency modulation scheme in which digital information is transmitted through discrete frequency changes of a carrier signal.
+
+## General Parameters:
+- M = 2
+- Eb/No = EbNo
+- Bits per Symbol = 2
+
 
 ## Scatter plot before noise:
 ![BeforeNoise](FSK/beforenoise.PNG)
@@ -61,15 +96,39 @@ FSK is a frequency modulation scheme in which digital information is transmitted
 ### Definition: 
 Quadrature amplitude modulation (QAM) is a technique used to transmit two digital bit streams or two analog signals by modulating or changing the amplitudes of two carrier waves so that they differ in phase by 90 degrees, a quarter of a cycle, hence the name quadrature. One signal is called the "I" signal and the other is the "Q" signal, which can be mathematically represented by a cosine and a sine wave, respectively.
 
+## General Parameters:
+- M = 16
+- Eb/No = EbNo
+- Bits per Symbol = 4
+
+## Raised Cosine Parameters:
+- Rolloff factor = 0.2
+- Filter span in symbols = 8
+
 ## Scatter plot before noise:
 ![BeforeNoise](QAM16/beforenoise.PNG)
 ## Scatter plot after noise:
 ![AfterNoise](QAM16/afternoise.PNG)
 ## BER Graph
 ![BERGraph](QAM16/ber.PNG)
+## Scatter plot before noise with raised cosine:
+![BeforeNoise](RaisedCosine/QAM16/beforenoise.PNG)
+## Scatter plot after noise with raised cosine:
+![AfterNoise](RaisedCosine/QAM16/afternoise.PNG)
+## BER Graph with raised cosine
+![BERGraph](RaisedCosine/QAM16/ber.PNG)
 
 
 ## <a id="d"></a>QAM64
+
+## General Parameters:
+- M = 64
+- Eb/No = EbNo
+- Bits per Symbol = 6
+
+## Raised Cosine Parameters:
+- Rolloff factor = 0.2
+- Filter span in symbols = 8
 
 ## Scatter plot before noise:
 ![BeforeNoise](QAM64/beforenoise.PNG)
@@ -77,3 +136,9 @@ Quadrature amplitude modulation (QAM) is a technique used to transmit two digita
 ![AfterNoise](QAM64/afternoise.PNG)
 ## BER Graph
 ![BERGraph](QAM64/ber.PNG)
+## Scatter plot before noise with raised cosine:
+![BeforeNoise](RaisedCosine/QAM64/beforenoise.PNG)
+## Scatter plot after noise with raised cosine:
+![AfterNoise](RaisedCosine/QAM64/afternoise.PNG)
+## BER Graph with raised cosine
+![BERGraph](RaisedCosine/QAM64/ber.PNG)
