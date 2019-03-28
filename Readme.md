@@ -1,4 +1,4 @@
-# Digital Communciation Project
+# Digital Communication Project
 Simulate the performance of different modulation schemes,[BPSK](#a), [QPSK](#b), [FSK](#c), [QAM16](#d),[QAM64](#e) in an AWGN environment 
 
 
